@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #87b5b5;
+  height: 100vh;
+  position: relative;
+}
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.editor-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  min-width: 520px;
+  height: 200px;
+  margin: 30px auto 10px;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#editor,
+#preview {
+  top: 50;
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  outline: none;
+  margin-bottom: 0;
+  background: #c0d8d8;
+  resize: vertical;
+}
+
+.editor-tools-tip,
+.previwer-tools-tip {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  font-weight: 300;
+  border-bottom: 0.7px solid #000;
+  background: #4aa3a3;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+.previewer-wrapper {
+  width: 60vw;
+  min-width: 700px;
+  margin: 0 auto;
+  resize: vertical;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+code {
+  background: #a0afaf;
+  padding: 3px 3px 3px 0;
+  width: 100vw;
+}
